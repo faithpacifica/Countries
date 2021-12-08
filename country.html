@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a class="header__logo" href='index.html'>Where in the world?</a>
+            <button class="header__theme-change-btn" type='button'>
+                <div class="header__theme-change-btn__inner">
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+                        <path class="btn__icon" fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.553 13.815c-3.884 0-7.034-2.887-7.034-6.447 0-1.343.448-2.586 1.212-3.618-3.04.945-5.231 3.581-5.231 6.688 0 3.9 3.45 7.062 7.704 7.062 3.389 0 6.266-2.007 7.296-4.796a7.458 7.458 0 0 1-3.947 1.111Z"
+                            fill="currentColor" stroke="currentColor" stroke-width="1.25" />
+                    </svg>
+                    <div class='btn__text'>Dark Mode</div>
+                </div>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content main-content__inner">
+        <div class="container">
+            <a class="back__button" href="index.html">
+                <svg class="back__button__icon" width="19" height="13" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="m6.464.107 1.179 1.179-3.89 3.889h14.85v1.65H3.753l3.89 3.889-1.179 1.179L.572 6 6.464.107Z"
+                        fill="currentColor" />
+                </svg>
+                <div class="back__button__text">Back </div>
+            </a>
+
+
+            <section class="single-country">
+                <img class="single-country__img" src='img/belgium.jpg' alt='flag' width="560" height="400">
+                <div class="single-country__info">
+                    <h1 class="single-country__info__title">Belgium</h1>
+                    <div class="single-country__info__wrapper">
+                        <div class="single-country__info__details">
+                            <div class="single-country__info__details__item">Native Name: België</div>
+                            <div class="single-country__info__details__item"> Population: 11,319,511</div>
+                            <div class="single-country__info__details__item"> Region: Europe</div>
+                            <div class="single-country__info__details__item"> Sub Region: Western Europe</div>
+                            <div class="single-country__info__details__item"> Capital: Brussels</div>
+                        </div>
+                        <div class="single-country__info__details">
+                            <div class="single-country__info__details__item">Top Level Domain: .be</div>
+                            <div class="single-country__info__details__item"> Currencies: Euro</div>
+                            <div class="single-country__info__details__item">Languages: Dutch, French, German</div>
+                        </div>
+                    </div>
+
+                    <div class="single-country__border-countries border-countries">
+                       <h3 class="border-countries__title"> Border Countries:</h3>
+                        <div class='border-countries__wrapper'>
+                            <a class='border-countries__link' href="#">France</a>
+                            <a class='border-countries__link' href="#">Germany</a>
+                            <a class='border-countries__link' href="#">Netherlands</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </main>
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
